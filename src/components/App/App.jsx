@@ -1,3 +1,4 @@
+import Settings from '../Settings'
 import Stats from '../Stats'
 import Items from '../Items'
 import { ButtonContainer } from '../../shared/buttons'
@@ -15,7 +16,7 @@ function App() {
       <div className={styles.app}>
         <Header />
         <Content>
-        <Stats />
+        <Settings />
         </Content>
         <Menu />
       </div>
