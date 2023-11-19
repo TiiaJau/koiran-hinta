@@ -1,3 +1,4 @@
+import { MdNavigateNext } from 'react-icons/md'
 import styles from './Item.module.scss'
 
 function Item() {
@@ -12,6 +13,9 @@ function Item() {
             <div className={styles.item_receiver}>Peten koiratarvike Oy</div>
             <div className={styles.item_average}>29,97 €/kk</div>
           </div>
+          <div className={styles.item_edit}>
+        <MdNavigateNext />
+      </div>
         </div>
       )
     
