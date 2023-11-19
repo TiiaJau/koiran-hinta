@@ -1,3 +1,4 @@
+import Button from '../../shared/buttons'
 import Content from '../Content'
 import Menu from '../Menu'
 import Header from '../Header'
@@ -15,6 +16,7 @@ function App() {
           <Item />
           <Item />
           <Item />
+          <Button>LISÄÄ UUSI RIVI</Button>
         </Content>
         <Menu />
       </div>
