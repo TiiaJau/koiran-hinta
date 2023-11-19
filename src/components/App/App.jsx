@@ -1,3 +1,4 @@
+import Item from '../Item'
 import './App.css'
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-        TODO projekti
+      <Item />
       </div>
     </>
   )
