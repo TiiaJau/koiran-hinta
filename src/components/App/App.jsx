@@ -1,3 +1,4 @@
+import Menu from '../Menu'
 import Header from '../Header'
 import Item from '../Item'
 import styles from './App.module.scss'
@@ -12,6 +13,7 @@ function App() {
         <Item />
         <Item />
         <Item />
+        <Menu />
       </div>
     </>
   )
